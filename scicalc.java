@@ -62,6 +62,42 @@ public class scicalc {
                     System.out.println("Mode switched to " + (inRadians ? "Radians" : "Degrees") + "!");
                     break;
 
+                case 11:
+                    //
+
+                    break;
+
+                case 12:
+                    //
+
+                    break;
+
+                case 13:
+                    //
+
+                    break;
+
+                case 14:
+                    //
+
+                    break;
+
+                case 15:
+                    //
+
+                    break;
+
+                case 16:
+                    //
+
+                    break;
+
+                case 17:
+                    //
+
+                    break;
+
+
 
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
