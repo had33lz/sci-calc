@@ -37,6 +37,10 @@ public class scicalc {
                     division(wewe);
                     break;
 
+                case 5:
+                    power(wewe);
+                    break;
+
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
                     wewe.close();
@@ -54,6 +58,7 @@ public class scicalc {
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
+        System.out.println("5. power");
         System.out.println("0. Exit");
         System.out.println("=============================");
 
@@ -105,6 +110,15 @@ public class scicalc {
         System.out.println("Result: "+ result );
     }
 
+
+
+    public static void power(Scanner input) {
+        System.out.print("Enter base: ");
+        double base = input.nextDouble();
+        System.out.print("Enter exponent: ");
+        double exponent = input.nextDouble();
+        System.out.println("Result: " + Math.pow(base, exponent));
+    }
 
 
 

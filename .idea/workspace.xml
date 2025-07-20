@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the division// Multiplication function">
-      <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the division by 0">
+      <change beforePath="$PROJECT_DIR$/out/production/scicalc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scicalc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scicalc/scicalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scicalc/scicalc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753013050482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding the division by 0">
+      <option name="closed" value="true" />
+      <created>1753013779009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753013779009</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +157,7 @@
     <MESSAGE value="adding the addition function" />
     <MESSAGE value="adding the subtraction function" />
     <MESSAGE value="adding the division// Multiplication function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the division// Multiplication function" />
+    <MESSAGE value="adding the division by 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the division by 0" />
   </component>
 </project>
