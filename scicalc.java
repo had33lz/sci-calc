@@ -41,6 +41,10 @@ public class scicalc {
                     power(wewe);
                     break;
 
+                case 6:
+                    sqroot(wewe);
+                    break;
+
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
                     wewe.close();
@@ -59,6 +63,7 @@ public class scicalc {
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
         System.out.println("5. power");
+        System.out.println("6. square root");
         System.out.println("0. Exit");
         System.out.println("=============================");
 
@@ -120,6 +125,15 @@ public class scicalc {
         System.out.println("Result: " + Math.pow(base, exponent));
     }
 
+    public static void sqroot(Scanner input) {
+        System.out.print("Enter a number: ");
+        double n = input.nextDouble();
 
+        if (n < 0) {
+            System.out.println("Error: Square root of negative number is imaginary :( ");
+            return;
+        }
+        System.out.println("Result: " + Math.sqrt(n));
+    }
 
 }
