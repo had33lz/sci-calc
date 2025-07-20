@@ -26,7 +26,7 @@ public class scicalc {
                     break;
 
                 case 2:
-                    //Subtraction
+                    subtraction(wewe);
                     break;
 
                 case 0:
@@ -59,9 +59,15 @@ public class scicalc {
     }
 
 
+    public static void subtraction(Scanner input) {
+        System.out.print("Enter first number: ");
+        double num1 = input.nextDouble();
+        System.out.print("Enter second number: ");
+        double num2 = input.nextDouble();
+        double result = num1 - num2;
+        System.out.println("Result: " + result);
 
-
-
+    }
 
 
 

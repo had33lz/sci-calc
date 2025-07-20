@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scicalc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the addition function">
+      <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "had33lz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/had33lz/sci-calc.git",
+    "accountId": "e5bae02d-1c55-4756-8a96-34e5c43b7728"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scicalc.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -37,9 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.scicalc.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -51,6 +63,71 @@
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
     </task>
+    <task id="LOCAL-00001" summary="while loop">
+      <option name="closed" value="true" />
+      <created>1753007505170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753007505170</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add switch cases">
+      <option name="closed" value="true" />
+      <created>1753007814141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753007814141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="solving some errors">
+      <option name="closed" value="true" />
+      <created>1753008347597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753008347597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="solving some errors">
+      <option name="closed" value="true" />
+      <created>1753008702671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753008702671</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solving some errors">
+      <option name="closed" value="true" />
+      <created>1753011385847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753011385847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="main code structure">
+      <option name="closed" value="true" />
+      <created>1753011416780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753011416780</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding the addition function">
+      <option name="closed" value="true" />
+      <created>1753011743968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753011743968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="while loop" />
+    <MESSAGE value="add switch cases" />
+    <MESSAGE value="solving some errors" />
+    <MESSAGE value="main code structure" />
+    <MESSAGE value="adding the addition function" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the addition function" />
   </component>
 </project>
