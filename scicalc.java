@@ -22,7 +22,7 @@ public class scicalc {
 
             switch (choice) {
                 case 1:
-                    //Addition
+                    addition(wewe);
                     break;
 
                 case 2:
@@ -48,4 +48,26 @@ public class scicalc {
         System.out.println("=============================");
 
     }
+
+    public static void addition(Scanner in) {
+        System.out.println("Enter first number: ");
+        double n1 = in.nextDouble();
+        System.out.println("Enter second number: ");
+        double n2 = in.nextDouble();
+        double result = n1 + n2;
+        System.out.println("Result: " + result);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
