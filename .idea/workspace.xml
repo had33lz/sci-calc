@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the division by 0">
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="add the cases (still empty ))">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
-      <workItem from="1753031057783" duration="443000" />
+      <workItem from="1753031057783" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="while loop">
       <option name="closed" value="true" />
@@ -164,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753013779009</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding the rest of the function list menue">
+      <option name="closed" value="true" />
+      <created>1753031618679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031618679</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add the cases (still empty ))">
+      <option name="closed" value="true" />
+      <created>1753031824877</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031824877</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +195,8 @@
     <MESSAGE value="adding the subtraction function" />
     <MESSAGE value="adding the division// Multiplication function" />
     <MESSAGE value="adding the division by 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the division by 0" />
+    <MESSAGE value="adding the rest of the function list menue" />
+    <MESSAGE value="add the cases (still empty ))" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the cases (still empty ))" />
   </component>
 </project>

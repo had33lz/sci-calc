@@ -63,18 +63,15 @@ public class scicalc {
                     break;
 
                 case 11:
-                    //
-
+                    ln(wewe);
                     break;
 
                 case 12:
-                    //
-
+                    lagb(wewe);
                     break;
 
                 case 13:
-                    //
-
+                    absv(wewe);
                     break;
 
                 case 14:
@@ -227,5 +224,25 @@ public class scicalc {
     }
 
 
+    public static void ln(Scanner input) {
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        if (num <= 0) {
+            System.out.println("Natural log undefined for zero or negative values.");
+        }
+
+    }
+
+    public static double lagb(Scanner input) {
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        if (num <= 0) {
+            System.out.println("Log base 10 undefined for zero or negative values.");
+            return Double.NaN;
+        }
+        return Math.log10(num);
+    }
+
+    }
 
 }
