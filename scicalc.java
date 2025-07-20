@@ -243,6 +243,21 @@ public class scicalc {
         System.out.println(" log10(" + num + ") = " + result);
     }
 
+    public static void absv(Scanner input) {
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        double result = Math.abs(num);
+        System.out.println(" |" + num + "| = " + result);
+    }
+
+    public static void rtnl(Scanner input) {
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        long result = Math.round(num);
+        System.out.println(" Rounded value of " + num + " = " + result);
+    }
+
+
     }
 
 }
