@@ -75,8 +75,7 @@ public class scicalc {
                     break;
 
                 case 14:
-                    //
-
+                    rtnl(wewe);
                     break;
 
                 case 15:
