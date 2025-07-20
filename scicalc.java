@@ -46,5 +46,6 @@ public class scicalc {
         System.out.println("2. Subtraction");
         System.out.println("0. Exit");
         System.out.println("=============================");
+
     }
 }
