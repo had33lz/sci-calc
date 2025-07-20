@@ -237,7 +237,7 @@ public class scicalc {
         double num = input.nextDouble();
         if (num <= 0) {
             System.out.println("Log base 10 undefined for zero or negative values.");
-            return Double.NaN;
+            return;
         }
         double result = Math.log10(num);
         System.out.println(" log10(" + num + ") = " + result);
