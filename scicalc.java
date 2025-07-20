@@ -135,16 +135,23 @@ public class scicalc {
     }
 
     public static void addition(Scanner in) {
+
+        try {
         System.out.println("Enter first number: ");
         double n1 = in.nextDouble();
         System.out.println("Enter second number: ");
         double n2 = in.nextDouble();
         double result = n1 + n2;
         System.out.println("Result: " + result);
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            in.nextLine(); // flush input
+        }
     }
 
 
     public static void subtraction(Scanner input) {
+        try {
         System.out.print("Enter first number: ");
         double num1 = input.nextDouble();
         System.out.print("Enter second number: ");
@@ -152,9 +159,14 @@ public class scicalc {
         double result = num1 - num2;
         System.out.println("Result: " + result);
 
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void Multiplication(Scanner input){
+        try {
         System.out.println("enter first number ");
         double n1 = input.nextDouble();
         System.out.println("enter second number");
@@ -162,9 +174,14 @@ public class scicalc {
         double result = n1 * n2 ;
         System.out.println("Result: "+ result );
 
+    }catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void division(Scanner in){
+        try{
         System.out.println("enter first number ");
         double n1 = in.nextDouble();
         System.out.println("enter second number");
@@ -178,19 +195,29 @@ public class scicalc {
 
         }
         System.out.println("Result: "+ result );
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            in.nextLine(); // flush input
+        }
     }
 
 
 
     public static void power(Scanner input) {
+        try{
         System.out.print("Enter base: ");
         double base = input.nextDouble();
         System.out.print("Enter exponent: ");
         double exponent = input.nextDouble();
         System.out.println("Result: " + Math.pow(base, exponent));
+    }  catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void sqroot(Scanner input) {
+        try {
         System.out.print("Enter a number: ");
         double n = input.nextDouble();
 
@@ -199,33 +226,59 @@ public class scicalc {
             return;
         }
         System.out.println("Result: " + Math.sqrt(n));
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
+
+
     public static double convertToRadians(double angle) {
+
         return inRadians ? angle : Math.toRadians(angle);
     }
+
+
     public static void sin(Scanner input) {
+        try{
         System.out.print("Enter angle: ");
         double angle = input.nextDouble();
         double radians = convertToRadians(angle);
         System.out.println("sin(" + angle + ") = " + Math.sin(radians));
+    } catch (InputMismatchException e) {
+        System.out.println(" Invalid input. Numbers only!");
+        input.nextLine(); // flush input
     }
+}
 
     public static void cos(Scanner input) {
+        try{
         System.out.print("Enter angle: ");
         double angle = input.nextDouble();
         double radians = convertToRadians(angle);
         System.out.println("cos(" + angle + ") = " + Math.cos(radians));
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
+
     public static void tan(Scanner input) {
+        try{
         System.out.print("Enter angle: ");
         double angle = input.nextDouble();
         double radians = convertToRadians(angle);
         System.out.println("tan(" + angle + ") = " + Math.tan(radians));
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
 
     public static void ln(Scanner input) {
+        try{
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         if (num <= 0) {
@@ -234,9 +287,14 @@ public class scicalc {
         }
         double result = Math.log(num);
         System.out.println(" ln(" + num + ") = " + result);
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
-    public static void lagb(Scanner input) { //Logarithm Base 10
+    public static void lagb(Scanner input) {
+        try { //Logarithm Base 10
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         if (num <= 0) {
@@ -245,51 +303,79 @@ public class scicalc {
         }
         double result = Math.log10(num);
         System.out.println(" log10(" + num + ") = " + result);
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
-    public static void absv(Scanner input) { //Absolute Value
+    public static void absv(Scanner input) {//Absolute Value
+       try {
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         double result = Math.abs(num);
         System.out.println(" |" + num + "| = " + result);
+    } catch (InputMismatchException e) {
+           System.out.println(" Invalid input. Numbers only!");
+           input.nextLine(); // flush input
+       }
     }
 
     public static void rtnl(Scanner input) { //Round to Nearest Long
+       try {
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         long result = Math.round(num);
         System.out.println(" Rounded value of " + num + " = " + result);
+    } catch (InputMismatchException e) {
+           System.out.println(" Invalid input. Numbers only!");
+           input.nextLine(); // flush input
+       }
     }
 
 
     public static void CeilingRU(Scanner input) { // Ceiling (Round Up)
-        System.out.print("Enter a number: ");
+        try {
+            System.out.print("Enter a number: ");
         double num = input.nextDouble();
         double result = Math.ceil(num);
         System.out.print(" Ceiling (Round Up) " + num + " = " + result);
+    }catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void CeilingRd(Scanner input) { // Ceiling (Round down)
-        System.out.print("Enter a number: ");
+        try  {System.out.print("Enter a number: ");
         double num = input.nextDouble();
         double result = Math.floor(num);
         System.out.print(" Ceiling (Round Down) " + num + " = " + result);
 
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void minNum(Scanner input){
-        System.out.println("enter first number ");
+        try {
+            System.out.println("enter first number ");
         double n1 = input.nextDouble();
         System.out.println("enter second number");
         double n2 = input.nextDouble();
         double result = Math.min(n1, n2);
         System.out.println("Result: "+ result );
 
-
+    } catch (InputMismatchException e) {
+            System.out.println(" Invalid input. Numbers only!");
+            input.nextLine(); // flush input
+        }
     }
 
     public static void maxNum(Scanner input){
-        System.out.println("enter first number ");
+       try {
+           System.out.println("enter first number ");
         double n1 = input.nextDouble();
         System.out.println("enter second number");
         double n2 = input.nextDouble();
@@ -297,6 +383,11 @@ public class scicalc {
         System.out.println("Result: "+ result );
 
 
+    }
+       catch (InputMismatchException e) {
+           System.out.println(" Invalid input. Numbers only!");
+           input.nextLine(); // flush input
+       }
     }
 
 }
