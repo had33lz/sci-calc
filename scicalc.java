@@ -95,8 +95,14 @@ public class scicalc {
         System.out.println("enter second number");
         double n2 = in.nextDouble();
         double result = n1 / n2 ;
-        System.out.println("Result: "+ result );
 
+        if (n2==0){   // has to be checked first so we have a result if n2 is 0 :)
+
+            System.out.println("can't divide by 0 dear try again :) <3 ");
+            return;
+
+        }
+        System.out.println("Result: "+ result );
     }
 
 

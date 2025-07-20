@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the subtraction function">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the division// Multiplication function">
+      <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753012145893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding the division// Multiplication function">
+      <option name="closed" value="true" />
+      <created>1753013050482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753013050482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +147,7 @@
     <MESSAGE value="main code structure" />
     <MESSAGE value="adding the addition function" />
     <MESSAGE value="adding the subtraction function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the subtraction function" />
+    <MESSAGE value="adding the division// Multiplication function" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the division// Multiplication function" />
   </component>
 </project>
