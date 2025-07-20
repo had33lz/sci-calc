@@ -29,6 +29,14 @@ public class scicalc {
                     subtraction(wewe);
                     break;
 
+                case 3:
+                    Multiplication(wewe);
+                    break;
+
+                case 4:
+                    division(wewe);
+                    break;
+
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
                     wewe.close();
@@ -44,6 +52,8 @@ public class scicalc {
         System.out.println("\n===== SCI CALC MENU =====");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("4. Division");
         System.out.println("0. Exit");
         System.out.println("=============================");
 
@@ -69,9 +79,25 @@ public class scicalc {
 
     }
 
+    public static void Multiplication(Scanner input){
+        System.out.println("enter first number ");
+        double n1 = input.nextDouble();
+        System.out.println("enter second number");
+        double n2 = input.nextDouble();
+        double result = n1 * n2 ;
+        System.out.println("Result: "+ result );
 
+    }
 
+    public static void division(Scanner in){
+        System.out.println("enter first number ");
+        double n1 = in.nextDouble();
+        System.out.println("enter second number");
+        double n2 = in.nextDouble();
+        double result = n1 / n2 ;
+        System.out.println("Result: "+ result );
 
+    }
 
 
 
