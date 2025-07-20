@@ -9,7 +9,7 @@ public class scicalc {
 
         while (true) {
             displayMenu();
-            System.out.print("Pick your choice ◝(ᵔᗜᵔ)◜ ⏾⋆.˚  ");
+            System.out.print("/nPick your choice ◝(ᵔᗜᵔ)◜ ⏾⋆.˚  ");
 
             int choice;
             try {

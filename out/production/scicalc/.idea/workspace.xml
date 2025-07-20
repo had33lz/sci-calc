@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding the division// Multiplication function">
-      <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding some cute design :&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,24 +22,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "had33lz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;had33lz&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/had33lz/sci-calc.git",
-    "accountId": "e5bae02d-1c55-4756-8a96-34e5c43b7728"
+    "accountId": "381e2b3b-20cf-45e8-b123-29d7891dbb55"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/scicalc.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="308NvdJtvI29jzL2y63cy3g0YF1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,9 +57,23 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="" />
@@ -64,6 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
+      <workItem from="1753031057783" duration="4220000" />
     </task>
     <task id="LOCAL-00001" summary="while loop">
       <option name="closed" value="true" />
@@ -137,8 +155,131 @@
       <option name="project" value="LOCAL" />
       <updated>1753013050482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding the division by 0">
+      <option name="closed" value="true" />
+      <created>1753013779009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753013779009</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding the rest of the function list menue">
+      <option name="closed" value="true" />
+      <created>1753031618679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031618679</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add the cases (still empty ))">
+      <option name="closed" value="true" />
+      <created>1753031824877</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031824877</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Natural Logarithm +  Logarithm Base 10function">
+      <option name="closed" value="true" />
+      <created>1753032222998</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032222998</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ABS VALUE">
+      <option name="closed" value="true" />
+      <created>1753032680141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032680141</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ROUND TO NEARIEST NUMBER">
+      <option name="closed" value="true" />
+      <created>1753032699777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032699777</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix mathmatical issue">
+      <option name="closed" value="true" />
+      <created>1753032717387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032717387</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add return">
+      <option name="closed" value="true" />
+      <created>1753032726240</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032726240</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix logical iissue">
+      <option name="closed" value="true" />
+      <created>1753032758299</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032758299</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add the ln function">
+      <option name="closed" value="true" />
+      <created>1753032775466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032775466</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixing errors adding dounding down">
+      <option name="closed" value="true" />
+      <created>1753033180932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033180932</updated>
+    </task>
+    <task id="LOCAL-00021" summary="min max addeed">
+      <option name="closed" value="true" />
+      <created>1753033580132</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033580132</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adding try catch to all function to handle errors">
+      <option name="closed" value="true" />
+      <created>1753034213897</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034213897</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixing numbring the menu error">
+      <option name="closed" value="true" />
+      <created>1753034294933</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034294933</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding some cute design :&gt;">
+      <option name="closed" value="true" />
+      <created>1753034866515</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034866515</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="while loop" />
@@ -148,6 +289,21 @@
     <MESSAGE value="adding the addition function" />
     <MESSAGE value="adding the subtraction function" />
     <MESSAGE value="adding the division// Multiplication function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the division// Multiplication function" />
+    <MESSAGE value="adding the division by 0" />
+    <MESSAGE value="adding the rest of the function list menue" />
+    <MESSAGE value="add the cases (still empty ))" />
+    <MESSAGE value="Natural Logarithm +  Logarithm Base 10function" />
+    <MESSAGE value="ABS VALUE" />
+    <MESSAGE value="ROUND TO NEARIEST NUMBER" />
+    <MESSAGE value="fix mathmatical issue" />
+    <MESSAGE value="add return" />
+    <MESSAGE value="fix logical iissue" />
+    <MESSAGE value="add the ln function" />
+    <MESSAGE value="fixing errors adding dounding down" />
+    <MESSAGE value="min max addeed" />
+    <MESSAGE value="adding try catch to all function to handle errors" />
+    <MESSAGE value="fixing numbring the menu error" />
+    <MESSAGE value="adding some cute design :&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some cute design :&gt;" />
   </component>
 </project>
