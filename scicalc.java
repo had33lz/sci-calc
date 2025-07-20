@@ -86,6 +86,15 @@ public class scicalc {
         System.out.println("8. Cos");
         System.out.println("9. Tan");
         System.out.println("10. Toggle Radians/Degrees");
+        System.out.println("=== ADVANCED FUNCTIONS ===");
+        System.out.println("Natural Logarithm (ln x)");
+        System.out.println("11. Logarithm Base 10 (log₁₀ x)");
+        System.out.println("12. Absolute Value |x|");
+        System.out.println("13. Round to Nearest Long ");
+        System.out.println("14. Ceiling (Round Up)");
+        System.out.println("15. Floor (Round Down)");
+        System.out.println("16. Minimum of Two Numbers");
+        System.out.println("17. Maximum of Two Numbers");
         System.out.println("0. Exit");
         System.out.println("=============================");
 
