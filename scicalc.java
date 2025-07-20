@@ -9,13 +9,13 @@ public class scicalc {
 
         while (true) {
             displayMenu();
-            System.out.print("Pick your choice :) ");
+            System.out.print("Pick your choice ◝(ᵔᗜᵔ)◜ ⏾⋆.˚  ");
 
             int choice;
             try {
                 choice = wewe.nextInt();
             } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a number.");
+                System.out.println("Invalid input. Please enter a number. ฅ^>⩊<^ ฅ ");
                 wewe.next(); // Clear invalid input
                 continue;
             }
@@ -109,28 +109,29 @@ public class scicalc {
     }
 
     public static void displayMenu() {
-        System.out.println("\n===== SCI CALC MENU =====");
-        System.out.println("1. Addition");
-        System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
-        System.out.println("4. Division");
-        System.out.println("5. power");
-        System.out.println("6. square root");
-        System.out.println("7. Sin");
-        System.out.println("8. Cos");
-        System.out.println("9. Tan");
-        System.out.println("10. Toggle Radians/Degrees");
-        System.out.println("=== ADVANCED FUNCTIONS ===");
-        System.out.println("11.Natural Logarithm (ln x)");
-        System.out.println("12. Logarithm Base 10 (log₁₀ x)");
-        System.out.println("13. Absolute Value |x|");
-        System.out.println("14. Round to Nearest Long ");
-        System.out.println("15. Ceiling (Round Up)");
-        System.out.println("16. Floor (Round Down)");
-        System.out.println("17. Minimum of Two Numbers");
-        System.out.println("18. Maximum of Two Numbers");
-        System.out.println("0. Exit");
-        System.out.println("=============================");
+        System.out.println(" ⫘⫘⫘⫘⫘ („• ֊ •„)੭ ⫘⫘⫘⫘⫘");
+        System.out.println("\n ✦·┈๑⋅⋯ SCI CALC MENU ⋯⋅๑┈·✦ ");
+        System.out.println(" 1. Addition");
+        System.out.println(" 2. Subtraction");
+        System.out.println(" 3. Multiplication");
+        System.out.println(" 4. Division");
+        System.out.println(" 5. power");
+        System.out.println(" 6. square root");
+        System.out.println(" 7. Sin");
+        System.out.println(" 8. Cos");
+        System.out.println(" 9. Tan");
+        System.out.println(" 10. Toggle Radians/Degrees");
+        System.out.println(" ✦·┈๑⋅⋯ ADVANCED FUNCTIONS ⋯⋅๑┈·✦ ");
+        System.out.println(" 11.Natural Logarithm (ln x)");
+        System.out.println(" 12. Logarithm Base 10 (log₁₀ x)");
+        System.out.println(" 13. Absolute Value |x|");
+        System.out.println(" 14. Round to Nearest Long ");
+        System.out.println(" 15. Ceiling (Round Up)");
+        System.out.println(" 16. Floor (Round Down)");
+        System.out.println(" 17. Minimum of Two Numbers");
+        System.out.println(" 18. Maximum of Two Numbers");
+        System.out.println(" 0. Exit ⋆˚✿˖° ");
+        System.out.println("꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷");
 
     }
 
@@ -142,9 +143,9 @@ public class scicalc {
         System.out.println("Enter second number: ");
         double n2 = in.nextDouble();
         double result = n1 + n2;
-        System.out.println("Result: " + result);
+        System.out.println("Result: " + result) ;
     } catch (InputMismatchException e) {
-            System.out.println(" Invalid input. Numbers only!");
+            System.out.println(" Invalid input. Numbers only! .☘");
             in.nextLine(); // flush input
         }
     }
@@ -160,7 +161,7 @@ public class scicalc {
         System.out.println("Result: " + result);
 
     } catch (InputMismatchException e) {
-            System.out.println(" Invalid input. Numbers only!");
+            System.out.println(" Invalid input. Numbers only! ⋆✴˚｡⋆");
             input.nextLine(); // flush input
         }
     }
@@ -175,7 +176,7 @@ public class scicalc {
         System.out.println("Result: "+ result );
 
     }catch (InputMismatchException e) {
-            System.out.println(" Invalid input. Numbers only!");
+            System.out.println(" Invalid input. Numbers only! ૮₍ ˃ ⤙ ˂ ₎ა ");
             input.nextLine(); // flush input
         }
     }
@@ -222,12 +223,12 @@ public class scicalc {
         double n = input.nextDouble();
 
         if (n < 0) {
-            System.out.println("Error: Square root of negative number is imaginary :( ");
+            System.out.println("Error: Square root of negative number is imaginary ₍^. .^₎Ⳋ ");
             return;
         }
         System.out.println("Result: " + Math.sqrt(n));
     } catch (InputMismatchException e) {
-            System.out.println(" Invalid input. Numbers only!");
+            System.out.println(" Invalid input. Numbers only! ♬⋆.˚ ");
             input.nextLine(); // flush input
         }
     }
@@ -282,7 +283,7 @@ public class scicalc {
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         if (num <= 0) {
-            System.out.println("Natural log undefined for zero or negative values.");
+            System.out.println("Natural log undefined for zero or negative values ⸜(｡˃ ᵕ ˂ )⸝♡");
             return;
         }
         double result = Math.log(num);
@@ -298,7 +299,7 @@ public class scicalc {
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         if (num <= 0) {
-            System.out.println("Log base 10 undefined for zero or negative values.");
+            System.out.println("Log base 10 undefined for zero or negative values. (˶ᵔ ᵕ ᵔ˶)");
             return;
         }
         double result = Math.log10(num);

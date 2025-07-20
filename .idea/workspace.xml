@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="adding try catch to all function to handle errors" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="fixing numbring the menu error">
+      <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
-      <workItem from="1753031057783" duration="3140000" />
+      <workItem from="1753031057783" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="while loop">
       <option name="closed" value="true" />
@@ -257,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753034213897</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fixing numbring the menu error">
+      <option name="closed" value="true" />
+      <created>1753034294933</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034294933</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +294,7 @@
     <MESSAGE value="fixing errors adding dounding down" />
     <MESSAGE value="min max addeed" />
     <MESSAGE value="adding try catch to all function to handle errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding try catch to all function to handle errors" />
+    <MESSAGE value="fixing numbring the menu error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing numbring the menu error" />
   </component>
 </project>
