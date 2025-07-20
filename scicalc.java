@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 
 public class scicalc {
-
+    static boolean inRadians = true;  // default mode
     public static void main(String[] args) {
 
         Scanner wewe = new Scanner(System.in);
@@ -46,16 +46,22 @@ public class scicalc {
                     break;
 
                 case 7:
-                    division(wewe);
+                    sin(wewe);
                     break;
 
                 case 8:
-                    power(wewe);
+                    cos(wewe);
                     break;
 
                 case 9:
-                    sqroot(wewe);
+                    tan(wewe);
                     break;
+
+                case 10:
+                    inRadians = !inRadians;
+                    System.out.println("Mode switched to " + (inRadians ? "Radians" : "Degrees") + "!");
+                    break;
+
 
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
@@ -79,6 +85,7 @@ public class scicalc {
         System.out.println("7. Sin");
         System.out.println("8. Cos");
         System.out.println("9. Tan");
+        System.out.println("10. Toggle Radians/Degrees");
         System.out.println("0. Exit");
         System.out.println("=============================");
 
@@ -150,5 +157,30 @@ public class scicalc {
         }
         System.out.println("Result: " + Math.sqrt(n));
     }
+    public static double convertToRadians(double angle) {
+        return inRadians ? angle : Math.toRadians(angle);
+    }
+    public static void sin(Scanner input) {
+        System.out.print("Enter angle: ");
+        double angle = input.nextDouble();
+        double radians = convertToRadians(angle);
+        System.out.println("sin(" + angle + ") = " + Math.sin(radians));
+    }
+
+    public static void cos(Scanner input) {
+        System.out.print("Enter angle: ");
+        double angle = input.nextDouble();
+        double radians = convertToRadians(angle);
+        System.out.println("cos(" + angle + ") = " + Math.cos(radians));
+    }
+
+    public static void tan(Scanner input) {
+        System.out.print("Enter angle: ");
+        double angle = input.nextDouble();
+        double radians = convertToRadians(angle);
+        System.out.println("tan(" + angle + ") = " + Math.tan(radians));
+    }
+
+
 
 }
