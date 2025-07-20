@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="add the cases (still empty ))">
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="Natural Logarithm +  Logarithm Base 10function">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
     </list>
@@ -82,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
-      <workItem from="1753031057783" duration="1077000" />
+      <workItem from="1753031057783" duration="2049000" />
     </task>
     <task id="LOCAL-00001" summary="while loop">
       <option name="closed" value="true" />
@@ -180,7 +181,63 @@
       <option name="project" value="LOCAL" />
       <updated>1753031824877</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Natural Logarithm +  Logarithm Base 10function">
+      <option name="closed" value="true" />
+      <created>1753032222998</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032222998</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ABS VALUE">
+      <option name="closed" value="true" />
+      <created>1753032680141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032680141</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ROUND TO NEARIEST NUMBER">
+      <option name="closed" value="true" />
+      <created>1753032699777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032699777</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix mathmatical issue">
+      <option name="closed" value="true" />
+      <created>1753032717387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032717387</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add return">
+      <option name="closed" value="true" />
+      <created>1753032726240</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032726240</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix logical iissue">
+      <option name="closed" value="true" />
+      <created>1753032758299</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032758299</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add the ln function">
+      <option name="closed" value="true" />
+      <created>1753032775466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032775466</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +254,13 @@
     <MESSAGE value="adding the division by 0" />
     <MESSAGE value="adding the rest of the function list menue" />
     <MESSAGE value="add the cases (still empty ))" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the cases (still empty ))" />
+    <MESSAGE value="Natural Logarithm +  Logarithm Base 10function" />
+    <MESSAGE value="ABS VALUE" />
+    <MESSAGE value="ROUND TO NEARIEST NUMBER" />
+    <MESSAGE value="fix mathmatical issue" />
+    <MESSAGE value="add return" />
+    <MESSAGE value="fix logical iissue" />
+    <MESSAGE value="add the ln function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the ln function" />
   </component>
 </project>

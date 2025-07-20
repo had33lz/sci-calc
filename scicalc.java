@@ -79,8 +79,7 @@ public class scicalc {
                     break;
 
                 case 15:
-                    //
-
+                    CeilingRU(wewe);
                     break;
 
                 case 16:
@@ -228,12 +227,13 @@ public class scicalc {
         double num = input.nextDouble();
         if (num <= 0) {
             System.out.println("Natural log undefined for zero or negative values.");
+            return;
         }
         double result = Math.log(num);
         System.out.println(" ln(" + num + ") = " + result);
     }
 
-    public static double lagb(Scanner input) {
+    public static void lagb(Scanner input) { //Logarithm Base 10
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         if (num <= 0) {
@@ -244,14 +244,14 @@ public class scicalc {
         System.out.println(" log10(" + num + ") = " + result);
     }
 
-    public static void absv(Scanner input) {
+    public static void absv(Scanner input) { //Absolute Value
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         double result = Math.abs(num);
         System.out.println(" |" + num + "| = " + result);
     }
 
-    public static void rtnl(Scanner input) {
+    public static void rtnl(Scanner input) { //Round to Nearest Long
         System.out.print("Enter a number: ");
         double num = input.nextDouble();
         long result = Math.round(num);
@@ -259,6 +259,14 @@ public class scicalc {
     }
 
 
+    public static void CeilingRU(Scanner input) { // Ceiling (Round Up)
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        double result = Math.ceil(num);
+        System.out.print(" Ceiling (Round Up) " + num + " = " + result);
     }
 
-}
+    }
+
+
+
