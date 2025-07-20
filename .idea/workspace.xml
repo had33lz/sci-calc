@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="Natural Logarithm +  Logarithm Base 10function">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb258cf2-bdc8-4942-b38b-43dd1dc8a341" name="Changes" comment="fixing errors adding dounding down">
       <change beforePath="$PROJECT_DIR$/scicalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/scicalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753005474139</updated>
-      <workItem from="1753031057783" duration="2049000" />
+      <workItem from="1753031057783" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="while loop">
       <option name="closed" value="true" />
@@ -237,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753032775466</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fixing errors adding dounding down">
+      <option name="closed" value="true" />
+      <created>1753033180932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033180932</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +267,7 @@
     <MESSAGE value="add return" />
     <MESSAGE value="fix logical iissue" />
     <MESSAGE value="add the ln function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the ln function" />
+    <MESSAGE value="fixing errors adding dounding down" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing errors adding dounding down" />
   </component>
 </project>

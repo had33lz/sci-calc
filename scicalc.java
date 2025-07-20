@@ -83,16 +83,19 @@ public class scicalc {
                     break;
 
                 case 16:
-                    //
+                    CeilingRd(wewe);
 
                     break;
 
                 case 17:
-                    //
+                    minNum(wewe);
 
                     break;
 
+                case 18:
+                    maxNum(wewe);
 
+                    break;
 
                 case 0:
                     System.out.println("\nGoodbye. The Sci Calc was here :> !");
@@ -266,7 +269,37 @@ public class scicalc {
         System.out.print(" Ceiling (Round Up) " + num + " = " + result);
     }
 
+    public static void CeilingRd(Scanner input) { // Ceiling (Round down)
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        double result = Math.floor(num);
+        System.out.print(" Ceiling (Round Down) " + num + " = " + result);
+
     }
+
+    public static void minNum(Scanner input){
+        System.out.println("enter first number ");
+        double n1 = input.nextDouble();
+        System.out.println("enter second number");
+        double n2 = input.nextDouble();
+        double result = Math.min(n1, n2);
+        System.out.println("Result: "+ result );
+
+
+    }
+
+    public static void maxNum(Scanner input){
+        System.out.println("enter first number ");
+        double n1 = input.nextDouble();
+        System.out.println("enter second number");
+        double n2 = input.nextDouble();
+        double result = Math.max(n1, n2);
+        System.out.println("Result: "+ result );
+
+
+    }
+
+}
 
 
 
