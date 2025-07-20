@@ -229,7 +229,8 @@ public class scicalc {
         if (num <= 0) {
             System.out.println("Natural log undefined for zero or negative values.");
         }
-
+        double result = Math.log(num);
+        System.out.println(" ln(" + num + ") = " + result);
     }
 
     public static double lagb(Scanner input) {
